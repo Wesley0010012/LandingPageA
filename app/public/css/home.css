@@ -1,0 +1,99 @@
+@import "./component/header.css";
+
+main {
+  display: flex;
+  margin-top: 55px;
+  justify-content: space-between;
+}
+
+main .text-container {
+  width: 55%;
+  padding: 120px 0;
+}
+
+main .text-container h1 {
+  font-size: 38px;
+}
+
+main .text-container p {
+  margin-top: 20px;
+}
+
+main .image-container {
+  width: 32%;
+  height: 380px;
+  background-color: #5e5c5c;
+}
+
+section.about {
+  margin-top: 55px;
+}
+
+.who-we-are {
+  margin-top: 25px;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
+
+.what-we-make {
+  margin-top: 40px;
+}
+
+.what-we-make p {
+  margin-bottom: 20px;
+}
+
+.what-we-make .specialties {
+  display: flex;
+  justify-content: space-between;
+}
+
+.speciality-part {
+  width: 30%;
+  border: 1px solid #202020
+}
+
+.speciality-part .image {
+  width: 100%;
+  height: 250px;
+  background-color: #5e5c5c;
+  border-bottom: 1px solid #202020
+}
+
+.speciality-part .text {
+  padding: 20px;
+}
+
+h4 {
+  margin-bottom: 7px;
+}
+
+.commentaries {
+  margin-top: 40px;
+}
+
+.commentaries ul {
+  display: inline-block;
+}
+
+.commentaries ul .commentary-part {
+  width: 600px;
+  padding: 30px 40px;
+  background-color: white;
+  border: 1px solid #202020;
+  display: flex;
+  justify-content: space-between;
+}
+
+.commentary-part .text {
+  width: 75%;
+}
+
+.commentary-part .counter-text {
+  width: 25%;
+  padding-top: 15px;
+  color: #818080;
+  text-align: center;
+}

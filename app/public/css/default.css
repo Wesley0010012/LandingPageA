@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+html, body {
+  height: 100%;
+  font-size: 16px; /*Standard*/
+  background-color: #f7f7f7;
+}
+
+div.container {
+  margin: auto;
+  width: 100%;
+  max-width: 1440px;
+  padding: 45px 120px;
+  background-color: #fafafa;
+}
+
+ul li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #202020;
+}
+
+p {
+  color: #11223f;
+  text-align: justify;
+}
+
+.titled {
+  display: inline;
+  border-bottom: 2px solid #b10b0a;
+  transition: 0.3s;
+}
+
+.titled:hover {
+  padding-right: 20px;
+}

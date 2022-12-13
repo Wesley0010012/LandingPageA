@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  width: 220px;
+  height: 75px;
+  background-color: #5e5c5c;
+}
+
+nav.nav-desktop {
+  margin-top: 12px;
+}
+
+nav.nav-desktop ul li {
+  margin-left: 30px;
+}
+
+.btn-email {
+  width: 250px;
+  background-color: #b10b0a;
+  padding: 13px 20px;
+  text-align: center;
+  color: white;
+  transition: 0.6s;
+}
+
+.btn-email:hover {
+  background-color: #880b0b;
+}
