@@ -1,3 +1,3 @@
-# LandingPages
+# LandingPageA
 
-Only LandingPages in this repository.
+Only a simple LandingPage
